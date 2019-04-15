@@ -1,43 +1,53 @@
+#header {
+  position: fixed;  
+  } 
+  
   #list {
-    list-style-type: none;
-
-  }
-
-  .nav-link {
-    display: inline;
-    padding: 10px;
-    flex-direction: row;
-    text-decoration: none;
-
-  }
-
-  #email-label {
-    padding-bottom: 5px;
-  }
-
-  #header-img {
-    height: auto;
-    float: left;
-  }
-
-  body {
-    position: absolute;
-  }
-
-  .topnav {
-    overflow: hidden;
-    position: fixed;
-    background-color: gray;
-    width: 100%;
-    display: flex;
-  }
-
-  .topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 25px;
+      list-style-type: none;
+  
+    }
+  
+    .nav-link {
+      display: inline;
+      padding: 10px;
+      flex-direction: row;
+      text-decoration: none;
+  
+    }
+  
+    #email-label {
+      padding-bottom: 5px;
+    }
+  
+    #header-img {
+      height: auto;
+      float: left;
+    }
+  
+    body {
+      position: absolute;
+    }
+  
+    .topnav {
+      overflow: hidden;
+      position: fixed;
+      background-color: gray;
+      width: 100%;
+      display: flex;
+    }
+  
+    .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+  
+  @media only screen and (min-width: 601px) {
+    div.example {
+      font-size: 80px;
+    }
   }
